@@ -1,0 +1,42 @@
+{
+    "yggtorrent": {
+        "anime_extra": "",
+        "anime_keywords": "{title} {episode}",
+        "anime_query": "",
+        "base_url": "https://yggtorrent.com/engine/search?q=QUERYEXTRA",
+        "color": "FFF7A62D",
+        "general_extra": "",
+        "general_keywords": "{title:fr}",
+        "general_query": "",
+        "language": "fr",
+        "login_failed": "Ces identifiants sont invalides",
+        "login_object": "{'id': 'USERNAME', 'pass': 'PASSWORD', 'submit' : ''}",
+        "login_path": "/user/login",
+        "movie_extra": "",
+        "movie_keywords": "{title:fr} {year}",
+        "movie_query": "",
+        "name": "Yggtorrent",
+        "parser": {
+            "infohash": "",
+            "name": "item('a')",
+            "peers": "item(tag='td', order=5)",
+            "row": "find_all('tr', start=2)",
+            "seeds": "item(tag='td', order=4)",
+            "size": "item(tag='td', order=3)",
+            "torrent": "item(tag='a', select=('target', '_blank'), attribute='href', order=1)"
+        },
+        "private": true,
+        "season_extra": "",
+        "season_extra2": "",
+        "season_keywords": "{title} Season_{season}",
+        "season_keywords2": "{title} Season{season}",
+        "season_query": "",
+        "separator": "+",
+        "show_query": "",
+        "subpage": false,
+        "tv_extra": "",
+        "tv_extra2": "",
+        "tv_keywords": "{title} s{season:2}e{episode:2}",
+        "tv_keywords2": ""
+    }
+}

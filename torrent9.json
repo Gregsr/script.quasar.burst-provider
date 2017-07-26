@@ -1,0 +1,42 @@
+{
+    "torrent9": {
+        "anime_extra": "",
+        "anime_keywords": "{title} {episode}",
+        "anime_query": "",
+        "base_url": "http://www.torrent9.cc/search_torrent/QUERYEXTRA.html,trie-seeds-d",
+        "color": "FF277A9C",
+        "general_extra": "",
+        "general_keywords": "{title:fr}",
+        "general_query": "",
+        "language": "fr",
+        "login_failed": "",
+        "login_object": "",
+        "login_path": null,
+        "movie_extra": "",
+        "movie_keywords": "{title:fr} {year}",
+        "movie_query": "",
+        "name": "Torrent9",
+        "parser": {
+            "infohash": "",
+            "name": "item('a')",
+            "peers": "item(tag='td', order=4)",
+            "row": "find_all('tr', start=2)",
+            "seeds": "item(tag='td', order=3)",
+            "size": "item(tag='td', order=2)",
+            "torrent": "definitions['torrent9']['root_url']+item(tag='a', attribute='href', order=1).replace('/torrent/', '/get_torrent/')+'.torrent'"
+        },
+        "private": false,
+        "season_extra": "",
+        "season_extra2": "",
+        "season_keywords": "{title} Season_{season}",
+        "season_keywords2": "{title} Season{season}",
+        "season_query": "",
+        "separator": "-",
+        "show_query": "",
+        "subpage": false,
+        "tv_extra": "",
+        "tv_extra2": "",
+        "tv_keywords": "{title} s{season:2}e{episode:2}",
+        "tv_keywords2": ""
+    }
+}
