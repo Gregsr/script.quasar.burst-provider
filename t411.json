@@ -1,0 +1,42 @@
+{
+    "t411": {
+        "anime_extra": "&category=3",
+        "anime_keywords": "{title} {episode}",
+        "anime_query": "455&order=seeders&type=desc",
+        "base_url": "http://www.t411.si/torrents/search/?search=QUERYEXTRA",
+        "color": "FF0071AF",
+        "general_extra": "",
+        "general_keywords": "{title:fr}",
+        "general_query": "&sortby=seeds&sort=desc",
+        "language": "fr",
+        "login_failed": "",
+        "login_object": "",
+        "login_path": null,
+        "movie_extra": "&category=1",
+        "movie_keywords": "{title:fr} {year}",
+        "movie_query": "",
+        "name": "T411",
+        "parser": {
+            "infohash": "",
+            "name": "item(tag='a', order=2)",
+            "peers": "item(tag='td', order=7)",
+            "row": "find_all('tr')",
+            "seeds": "item(tag='td', order=6)",
+            "size": "item(tag='td', order=5)",
+            "torrent": "item(tag='a', attribute='href', order=2)"
+        },
+        "private": false,
+        "season_extra": "",
+        "season_extra2": "",
+        "season_keywords": "{title:fr} saison {season}",
+        "season_keywords2": "{title:fr} S{season:2}",
+        "season_query": "",
+        "separator": "+",
+        "show_query": "",
+        "subpage": true,
+        "tv_extra": "&category=2",
+        "tv_extra2": "",
+        "tv_keywords": "{title} s{season:2}e{episode:2}",
+        "tv_keywords2": ""
+    }
+}
