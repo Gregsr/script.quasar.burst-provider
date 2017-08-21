@@ -1,3 +1,6 @@
+Vous pouvez utiliser ces fichiers ou bien j'ai forké le burst officiel pour en faire un burst-fr dédié au providers français que vous pouvez trouver ici et qui s'installe comme une extension standard.
+https://bitbucket.org/rik91/script.quasar.burst-fr
+
 Introduction
 ===================
 Providers pour Quasar Burst :
