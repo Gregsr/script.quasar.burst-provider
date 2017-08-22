@@ -19,10 +19,10 @@
         "parser": {
             "infohash": "",
             "name": "item('a')",
-            "peers": "item(tag='td', order=5)",
+            "peers": "item(tag='td', order=6)",
             "row": "find_all('tr', start=2)",
-            "seeds": "item(tag='td', order=4)",
-            "size": "item(tag='td', order=3)",
+            "seeds": "item(tag='td', order=5)",
+            "size": "item(tag='td', order=4)",
             "torrent": "item(tag='a', select=('target', '_blank'), attribute='href', order=1)"
         },
         "private": true,
